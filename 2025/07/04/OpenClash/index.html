@@ -10,21 +10,26 @@
     <meta name="copyright" content="John Doe">
         <meta name="keywords" content="hexo,hexo-theme,hexo-blog">
     <meta name="description" content="">
-    <meta name="description" content="mc 服务器搭建 使用 docker 搭建, 容器镜像为 itzg&#x2F;minecraft-server:[tags]  1. 纯净服1234567891011121314151617181920212223version: &#x27;3.8&#x27;services:  minecraft:    image: itzg&#x2F;minecraft-server:java17    conta">
+    <meta name="description" content="搭建一台科学上网的软路由要想通过路由器实现科学上网，OpenClash 是一个很不错的选择。和常用的 Clash Verge 一样，这也是一个基于 Clash 的代理客户端。由于是专门为 OpenWrt 开发的，建议在 OpenWrt 系统上安装 OpenClash。 要想刷入 OpenClash 系统，可以选择直接在家用路由器上进行，但这存在一定的风险，可能直接导致路由器报废（就和安卓机刷机导致">
 <meta property="og:type" content="article">
-<meta property="og:title" content="mc-server">
-<meta property="og:url" content="http://example.com/2026/01/02/mc-server/index.html">
+<meta property="og:title" content="OpenClash">
+<meta property="og:url" content="http://example.com/2025/07/04/OpenClash/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="mc 服务器搭建 使用 docker 搭建, 容器镜像为 itzg&#x2F;minecraft-server:[tags]  1. 纯净服1234567891011121314151617181920212223version: &#x27;3.8&#x27;services:  minecraft:    image: itzg&#x2F;minecraft-server:java17    conta">
+<meta property="og:description" content="搭建一台科学上网的软路由要想通过路由器实现科学上网，OpenClash 是一个很不错的选择。和常用的 Clash Verge 一样，这也是一个基于 Clash 的代理客户端。由于是专门为 OpenWrt 开发的，建议在 OpenWrt 系统上安装 OpenClash。 要想刷入 OpenClash 系统，可以选择直接在家用路由器上进行，但这存在一定的风险，可能直接导致路由器报废（就和安卓机刷机导致">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2026-01-02T13:57:37.000Z">
-<meta property="article:modified_time" content="2026-01-02T13:58:43.255Z">
+<meta property="og:image" content="http://example.com/images/OpenClash/image-20250808001935133.png">
+<meta property="og:image" content="http://example.com/images/OpenClash/image-20250808003153915.png">
+<meta property="og:image" content="http://example.com/images/OpenClash/image-20250808004212484.png">
+<meta property="og:image" content="http://example.com/images/OpenClash/image-20250808004451246.png">
+<meta property="article:published_time" content="2025-07-04T05:28:22.000Z">
+<meta property="article:modified_time" content="2026-01-04T05:50:13.053Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/OpenClash/image-20250808001935133.png">
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link rel="icon" href="/images/avatar.png">
-    <title>mc-server · l3sec&#39;s Blog</title>
+    <title>OpenClash · l3sec&#39;s Blog</title>
     <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 /* This file is meant as a standalone workflow for
 - testing support for link[rel=preload]
@@ -242,7 +247,7 @@
             <a href="/">l3sec&#39;s Blog.</a>
         </div>
         <div class="post-title header-element">
-            <a href="#" class="post-name">mc-server</a>
+            <a href="#" class="post-name">OpenClash</a>
         </div>
     </div>
 </header>
@@ -269,7 +274,7 @@
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
-                mc-server
+                OpenClash
             <!-- 404 -->
         </h1>
         <!-- 副标题 -->
@@ -287,7 +292,7 @@
                 <div class="post-intro-meta">
                     <!-- 撰写日期 -->
                     <span class="iconfont-archer post-intro-calander">&#xe676;</span>
-                    <span class="post-intro-time">2026/01/02</span>
+                    <span class="post-intro-time">2025/07/04</span>
                     <!-- busuanzi -->
                         <span id="busuanzi_container_page_pv" class="busuanzi-pv">
                             <span class="iconfont-archer post-intro-busuanzi">&#xe602;</span>
@@ -439,15 +444,45 @@
             <div class="container container-unloaded">
                 <main class="main post-page">
     <article class="article-entry">
-        <h3 id="mc-服务器搭建"><a href="#mc-服务器搭建" class="headerlink" title="mc 服务器搭建"></a>mc 服务器搭建</h3><blockquote>
-<p>使用 docker 搭建, 容器镜像为 itzg&#x2F;minecraft-server:[tags]</p>
-</blockquote>
-<h4 id="1-纯净服"><a href="#1-纯净服" class="headerlink" title="1. 纯净服"></a>1. 纯净服</h4><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">&#x27;3.8&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">minecraft:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">itzg/minecraft-server:java17</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">mc</span></span><br><span class="line">    <span class="attr">stdin_open:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">tty:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;410:25565&quot;</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/root/mc/data:/data</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">EULA:</span> <span class="string">&quot;TRUE&quot;</span></span><br><span class="line">      <span class="attr">ONLINE_MODE:</span> <span class="string">&quot;FALSE&quot;</span></span><br><span class="line">      <span class="attr">MEMORY:</span> <span class="string">2G</span></span><br><span class="line">      <span class="attr">MAX_PLAYERS:</span> <span class="number">5</span></span><br><span class="line">      <span class="attr">DIFFICULTY:</span> <span class="string">&quot;hard&quot;</span></span><br><span class="line">      <span class="attr">VERSION:</span> <span class="number">1.20</span><span class="number">.1</span></span><br><span class="line">      <span class="attr">TYPE:</span> <span class="string">PAPER</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">&#x27;no&#x27;</span></span><br></pre></td></tr></table></figure>
+        <h2 id="搭建一台科学上网的软路由"><a href="#搭建一台科学上网的软路由" class="headerlink" title="搭建一台科学上网的软路由"></a>搭建一台科学上网的软路由</h2><p>要想通过路由器实现科学上网，OpenClash 是一个很不错的选择。和常用的 Clash Verge 一样，这也是一个基于 Clash 的代理客户端。由于是专门为 OpenWrt 开发的，建议在 OpenWrt 系统上安装 OpenClash。</p>
+<p>要想刷入 OpenClash 系统，可以选择直接在家用路由器上进行，但这存在一定的风险，可能直接导致路由器报废（就和安卓机刷机导致变砖一样）。所以这里就选择了一个 x86 的迷你主机来当软路由，配置不需要很高，内存 2G 已经是绰绰有余，但至少得有双网口。</p>
+<h3 id="刷写固件"><a href="#刷写固件" class="headerlink" title="刷写固件"></a>刷写固件</h3><p>这里我选择直接去 <a target="_blank" rel="noopener" href="https://downloads.openwrt.org/releases/24.10.2/targets/">官网</a> 下载最新的固件。对于近些年生产的 x86 小主机，直接选择 x86&#x2F;64&#x2F;generic-ext4-combined-efi.img.gz 就行了。</p>
+<p>由于官网提供的都是直接写盘的磁盘镜像文件（.img），所以需要一个 U 盘来运行 live 系统然后写盘（当然也可以直接把小主机的硬盘拆下来连到自己的电脑上然后写盘）。常见的 live 系统比如 WinPe，kali live，Debian Live standard 等都是可以的，甚至直接把 OpenWrt 固件写入 U 盘也是可以当 live 系统使用的（因为只要有 dd 命令就可以执行写盘操作）。这里的 U 盘烧录工具可以选择 Rufus，balenaEtcher 等。</p>
+<p><strong>Steps</strong></p>
+<ol>
+<li>将 live 系统通过烧录工具写入 U 盘</li>
+<li>将 U 盘插到小主机的 USB 口，同时插上键鼠和显示器，选择从 U 盘启动进入 live 系统</li>
+<li>将固件到 live 系统上，可以 ssh+ftp，也可以现场下载</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://downloads.openwrt.org/releases/24.10.2/targets/x86/64/openwrt-24.10.2-x86-64-generic-ext4-combined-efi.img.gz</span><br></pre></td></tr></table></figure>
 
-<h4 id="2-模组服"><a href="#2-模组服" class="headerlink" title="2. 模组服"></a>2. 模组服</h4><p><strong>模组服的modpacks记得下 server.zip 版本的</strong></p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">&#x27;3.8&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">minecraft:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">itzg/minecraft-server:java8</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">mc</span></span><br><span class="line">    <span class="attr">stdin_open:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">tty:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;410:25565&quot;</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./data:/data</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./modpacks:/modpacks</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">EULA:</span> <span class="string">&quot;TRUE&quot;</span></span><br><span class="line">      <span class="attr">ONLINE_MODE:</span> <span class="string">&quot;FALSE&quot;</span></span><br><span class="line">      <span class="attr">MEMORY:</span> <span class="string">3G</span></span><br><span class="line">      <span class="attr">MAX_PLAYERS:</span> <span class="number">5</span></span><br><span class="line">      <span class="attr">DIFFICULTY:</span> <span class="string">&quot;hard&quot;</span></span><br><span class="line">      <span class="attr">VERSION:</span> <span class="number">1.12</span><span class="number">.2</span></span><br><span class="line">      <span class="attr">TYPE:</span> <span class="string">CURSEFORGE</span></span><br><span class="line">      <span class="comment"># TYPE: FORGE</span></span><br><span class="line">      <span class="attr">CF_SERVER_MOD:</span> <span class="string">/modpacks/server.zip</span></span><br><span class="line">      <span class="attr">USE_MODPACK_START_SCRIPT:</span> <span class="string">&quot;TRUE&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">&#x27;no&#x27;</span></span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>dd 命令写盘</li>
+</ol>
+<p>首先需要确认一下小主机的磁盘是哪个，可以 lsblk 看一下，如果小主机预装了 Windows 的话，一般会有 3 个分区，比如 sda1, sda2, sda3，那么 &#x2F;dev&#x2F;sda 就是要写盘的目标。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">gzip -d ./generic-ext4-combined-efi.img.gz   <span class="comment"># 解压固件</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">dd</span> <span class="keyword">if</span>=./generic-ext4-combined-efi.img of=/dev/sda bs=4M status=progress  <span class="comment"># 镜像写入硬盘</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">sync</span>     <span class="comment"># 确保完全写入</span></span><br><span class="line">lsblk         <span class="comment"># 确认 sda 已经被分区</span></span><br><span class="line"><span class="built_in">sudo</span> reboot</span><br></pre></td></tr></table></figure>
 
-<p>docker-compose up -d 即可启动容器</p>
+<ol start="5">
+<li>拔掉 U 盘，从小主机的硬盘启动就进入了 OpenWrt 系统</li>
+</ol>
+<p><img src="/images/OpenClash/image-20250808001935133.png" alt="image-20250808001935133"></p>
+<h3 id="基本的上网设置"><a href="#基本的上网设置" class="headerlink" title="基本的上网设置"></a>基本的上网设置</h3><p>首先 passwd 设置一下密码，然后看一下 &#x2F;etc&#x2F;config&#x2F;network 文件，找一下 wan 口和 lan 口。比如，我的小主机上的网口有两个，标的是 LAN1 和 LAN2，那么在 &#x2F;etc&#x2F;config&#x2F;network 中对应的接口就是 eth0 和 eth1，一般 OpenWrt 默认的 wan 口是 eth1，这个可以自行设置。这里一般需要改一下 lan 口的配置，比如</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">config interface &#x27;lan&#x27;</span><br><span class="line">        option device &#x27;br-lan&#x27;</span><br><span class="line">        option proto &#x27;static&#x27;</span><br><span class="line">        option ipaddr &#x27;192.168.1.1&#x27;</span><br><span class="line">        option netmask &#x27;255.255.255.0&#x27;</span><br><span class="line">        option ip6assign &#x27;60&#x27;</span><br></pre></td></tr></table></figure>
+
+<p>由于家用的光猫一般都是 1.0 这个网段的，所以 192.168.1.1 会和它冲突，改成 192.168.0.1，192.168.2.1 等都是可以的</p>
+<p>保存后 reboot，拔掉键鼠和显示器，wan 口连到光猫，lan 口连电脑，此时已经可以正常访问 Internet 了，ssh <a href="mailto:&#114;&#111;&#x6f;&#116;&#x40;&#49;&#x39;&#x32;&#x2e;&#x31;&#54;&#56;&#46;&#50;&#46;&#x31;">root@192.168.2.1</a> 即可连接，浏览器访问 192.168.2.1 进入后台。这个 web 界面做的是很好的，有专门为移动端设备做了适配。</p>
+<p><img src="/images/OpenClash/image-20250808003153915.png" alt="image-20250808003153915"></p>
+<p>要开启 WiFi 功能，那么就需要一个路由器开启 AP 模式，然后把小主机的 lan 口接到路由器上，这样路由器就能为局域网发射 WiFi 信号了</p>
+<h3 id="OpenClash"><a href="#OpenClash" class="headerlink" title="OpenClash"></a>OpenClash</h3><p>基本也是照着 <a target="_blank" rel="noopener" href="https://github.com/vernesong/OpenClash">官网</a> 的教程来的</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">opkg update</span><br><span class="line"></span><br><span class="line">opkg install bash dnsmasq-full curl ca-bundle ip-full ruby ruby-yaml kmod-tun kmod-inet-diag unzip kmod-nft-tproxy luci-compat luci luci-base      <span class="comment"># 安装依赖</span></span><br></pre></td></tr></table></figure>
+
+<p><a target="_blank" rel="noopener" href="https://github.com/vernesong/OpenClash/releases">https://github.com/vernesong/OpenClash/releases</a> 下载客户端安装包（.ipk），然后在后台的 Software 界面上传并安装</p>
+<p><img src="/images/OpenClash/image-20250808004212484.png" alt="image-20250808004212484"></p>
+<p>重启一下，就可以看到 OpenClash 的界面了</p>
+<p><img src="/images/OpenClash/image-20250808004451246.png" alt="image-20250808004451246"></p>
+<p>初次是需要下载 Clash 内核的，可以在 Plugin Settings&#x2F;Version Update 中 Check Update 来自动下载内核，下载的会比较慢，耐心等待，可以在日志中查看进度。也可以下载完后在 Config Manage 界面上传内核。</p>
+<p>总之，内核下好后，OpenClash 就可以启动了，导入自己的机场订阅连接后，局域网内的所有设备都可以科学上网了！</p>
+<p>OpenWrt 和 OpenClash 都可以做很多的个性化设置，并且有大量的插件可供选择，许多好玩有用的功能有待探索，这里就不做展开了。</p>
 
     </article>
     <!-- license -->
@@ -457,8 +492,8 @@
         </li>
         <li class="previous">
                 <div class="prevSlogan">Previous Post</div>
-                <a href="/2026/01/02/hello-world/" title="Hello World">
-                    <div class="prevTitle">Hello World</div>
+                <a href="/2025/04/02/mc-server/" title="MC Server">
+                    <div class="prevTitle">MC Server</div>
                 </a>
         </li>
     </ul>
@@ -510,7 +545,7 @@
                 <div class="toc-catalog">
                     <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
                 </div>
-                <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#mc-%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA"><span class="toc-number">1.</span> <span class="toc-text">mc 服务器搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E7%BA%AF%E5%87%80%E6%9C%8D"><span class="toc-number">1.1.</span> <span class="toc-text">1. 纯净服</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E6%A8%A1%E7%BB%84%E6%9C%8D"><span class="toc-number">1.2.</span> <span class="toc-text">2. 模组服</span></a></li></ol></li></ol>
+                <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%90%AD%E5%BB%BA%E4%B8%80%E5%8F%B0%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%9A%84%E8%BD%AF%E8%B7%AF%E7%94%B1"><span class="toc-number">1.</span> <span class="toc-text">搭建一台科学上网的软路由</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%B7%E5%86%99%E5%9B%BA%E4%BB%B6"><span class="toc-number">1.1.</span> <span class="toc-text">刷写固件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E7%9A%84%E4%B8%8A%E7%BD%91%E8%AE%BE%E7%BD%AE"><span class="toc-number">1.2.</span> <span class="toc-text">基本的上网设置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#OpenClash"><span class="toc-number">1.3.</span> <span class="toc-text">OpenClash</span></a></li></ol></li></ol>
             </div>
         <!-- sidebar -->
         <div class="sidebar sidebar-hide">
@@ -524,22 +559,27 @@
     <!-- 在 ejs 中将 archive 按照时间排序 -->
         
         
+        
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 2
+        Total : 3
         </div>
         <!-- search  -->
     </div>
     <div class="post-archive">
-            <div class="archive-year"> 2026 </div>
+            <div class="archive-year"> 2025 </div>
             <ul class="year-list">
         <li class="archive-post-item">
-            <span class="archive-post-date">01/02</span>
-            <a class="archive-post-title" href="/2026/01/02/mc-server/">mc-server</a>
+            <span class="archive-post-date">07/04</span>
+            <a class="archive-post-title" href="/2025/07/04/OpenClash/">OpenClash</a>
         </li>
         <li class="archive-post-item">
-            <span class="archive-post-date">01/02</span>
-            <a class="archive-post-title" href="/2026/01/02/hello-world/">Hello World</a>
+            <span class="archive-post-date">04/02</span>
+            <a class="archive-post-title" href="/2025/04/02/mc-server/">MC Server</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">03/28</span>
+            <a class="archive-post-title" href="/2025/03/28/hello-world/">Hello World</a>
         </li>
             </ul>
     </div>

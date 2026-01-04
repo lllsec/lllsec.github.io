@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/2026/01/index.html">
+<meta property="og:url" content="http://example.com/archives/2025/07/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="John Doe">
@@ -399,42 +399,19 @@
                 <main class="main index-page">
             
         <article class="index-post">
-            <a class="abstract-title" href="/2026/01/02/mc-server/">
-                <span class="abstract-title-text">mc-server</span>
+            <a class="abstract-title" href="/2025/07/04/OpenClash/">
+                <span class="abstract-title-text">OpenClash</span>
             </a>
             <div class="abstract-content">
-                mc 服务器搭建
-使用 docker 搭建, 容器镜像为 itzg&#x2F;minecraft-server:[tags]
-
-1. 纯净服1234567891011121314151617181920212223version: &#x27;3.8&#x27;services:  minecraft:    image: itzg/minecraft-server:java17    container_name: mc    stdin_open: true    tty: true    ports:      - &quot;410:25565&quot;    volumes:...
+                搭建一台科学上网的软路由要想通过路由器实现科学上网，OpenClash 是一个很不错的选择。和常用的 Clash Verge 一样，这也是一个基于 Clash 的代理客户端。由于是专门为 OpenWrt 开发的，建议在 OpenWrt 系统上安装 OpenClash。
+要想刷入 OpenClash 系统，可以选择直接在家用路由器上进行，但这存在一定的风险，可能直接导致路由器报废（就和安卓机刷机导致变砖一样）。所以这里就选择了一个 x86 的迷你主机来当软路由，配置不需要很高，内存 2G 已经是绰绰有余，但至少得有双网口。
+刷写固件这里我选择直接去 官网 下载最新的固件。对于近些年生产的 ...
             </div>
             <!-- read more -->
             <div class="abstract-post-meta">
                 <!-- date -->
-                <div class="abstract-date" title="Last updated: 2026/01/02">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/01/02</span>
-                </div>
-                <!-- tags -->
-            </div>
-        </article>
-        <div class="index-post-divider"></div>
-            
-        <article class="index-post">
-            <a class="abstract-title" href="/2026/01/02/hello-world/">
-                <span class="abstract-title-text">Hello World</span>
-            </a>
-            <div class="abstract-content">
-                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
-
-More info: Writing
-Run server1$ hexo ...
-            </div>
-            <!-- read more -->
-            <div class="abstract-post-meta">
-                <!-- date -->
-                <div class="abstract-date" title="Last updated: 2026/01/02">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/01/02</span>
+                <div class="abstract-date" title="Last updated: 2026/01/04">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2025/07/04</span>
                 </div>
                 <!-- tags -->
             </div>
@@ -477,22 +454,27 @@ Run server1$ hexo ...
     <!-- 在 ejs 中将 archive 按照时间排序 -->
         
         
+        
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 2
+        Total : 3
         </div>
         <!-- search  -->
     </div>
     <div class="post-archive">
-            <div class="archive-year"> 2026 </div>
+            <div class="archive-year"> 2025 </div>
             <ul class="year-list">
         <li class="archive-post-item">
-            <span class="archive-post-date">01/02</span>
-            <a class="archive-post-title" href="/2026/01/02/mc-server/">mc-server</a>
+            <span class="archive-post-date">07/04</span>
+            <a class="archive-post-title" href="/2025/07/04/OpenClash/">OpenClash</a>
         </li>
         <li class="archive-post-item">
-            <span class="archive-post-date">01/02</span>
-            <a class="archive-post-title" href="/2026/01/02/hello-world/">Hello World</a>
+            <span class="archive-post-date">04/02</span>
+            <a class="archive-post-title" href="/2025/04/02/mc-server/">MC Server</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">03/28</span>
+            <a class="archive-post-title" href="/2025/03/28/hello-world/">Hello World</a>
         </li>
             </ul>
     </div>
